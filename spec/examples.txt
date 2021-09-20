@@ -1,0 +1,4 @@
+example_id                                        | status | run_time        |
+------------------------------------------------- | ------ | --------------- |
+./spec/requests/api/articles/index_spec.rb[1:2:1] | failed | 0.00014 seconds |
+./spec/requests/api/articles/index_spec.rb[1:2:2] | failed | 0.00008 seconds |
