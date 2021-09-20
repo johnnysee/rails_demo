@@ -19,5 +19,13 @@ module RailsDemo
 
     config.api_only = true
 
+    config.generators do |generate|
+      generate.helper false
+      generate.assets false
+      generate.skip_routes false
+      generate.helper_specs false
+      generate.controller_specs false
+      generate.request_specs false
+    end
   end
 end
