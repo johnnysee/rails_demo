@@ -1,10 +1,10 @@
 RSpec.describe 'GET /api/articles', type: :request do
+  subject { response }
   before do
     get '/api/articles'
   end
 
   describe 'when there are some articles in the database' do
-
   end
 
   describe 'when there are NO articles in the database' do
