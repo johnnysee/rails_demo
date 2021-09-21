@@ -188,7 +188,6 @@ DEPENDENCIES
   rspec-rails
   shoulda-matchers
   spring
-  tzinfo-data
 
 RUBY VERSION
    ruby 2.5.1p57
