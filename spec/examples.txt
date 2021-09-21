@@ -1,6 +1,6 @@
 example_id                                        | status  | run_time        |
 ------------------------------------------------- | ------- | --------------- |
-./spec/models/article_spec.rb[1:1]                | pending | 0.00002 seconds |
-./spec/requests/api/articles/index_spec.rb[1:1:1] | passed  | 0.07453 seconds |
-./spec/requests/api/articles/index_spec.rb[1:2:1] | passed  | 0.00819 seconds |
-./spec/requests/api/articles/index_spec.rb[1:2:2] | passed  | 0.0102 seconds  |
+./spec/models/article_spec.rb[1:1]                | pending | 0.00001 seconds |
+./spec/requests/api/articles/index_spec.rb[1:1:1] | passed  | 0.0388 seconds  |
+./spec/requests/api/articles/index_spec.rb[1:2:1] | passed  | 0.06273 seconds |
+./spec/requests/api/articles/index_spec.rb[1:2:2] | passed  | 0.00966 seconds |
