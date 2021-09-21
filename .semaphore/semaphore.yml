@@ -20,7 +20,6 @@ blocks:
             - checkout
             - sem-service start postgres 11
             - sem-version ruby 2.5.1
-            - bundle install --deployment --path vendor/bundle
             - 'curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter'
             - chmod +x ./cc-test-reporter
             - ./cc-test-reporter before-build
